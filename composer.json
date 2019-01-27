@@ -1,0 +1,23 @@
+{
+    "name": "mrfeathers/lib-skeleton",
+    "description": "Library skeleton",
+    "type": "library",
+    "keywords": [],
+    "require": {
+        "symfony/dependency-injection": "^4.2",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MrFeathers\\Tests\\": "tests/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "MrFeathers\\LibSkeleton\\": "src/"
+        }
+    }
+}
