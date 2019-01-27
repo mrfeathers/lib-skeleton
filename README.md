@@ -1,7 +1,7 @@
-##TutuRu LibSkeleton
+# TutuRu LibSkeleton
 It's a demo library for TutuRu Library Skeleton.
 
-##Usage
+## Usage
 
 LibSkeleton can print greetings using a printer class. You can use some of the available printers from this lib
 or create your own (just implement `PrinterInterface`).
@@ -14,11 +14,11 @@ $libSkeleton->hello('Alexander');
 
 ```
 
-###Available Printers
+### Available Printers
 - `EchoPrinter` - uses `echo`
 - `PrintRPrinter` - uses `print_r`
 
-##Logging
+## Logging
 
 LibSkeleton implements `LoggerAwareInterface`, set `Psr\LoggerInterface` logger to LibSkeleton object.
 ```php
@@ -29,5 +29,5 @@ $logger = new NullLogger();
 $libSkeleton->setLogger($logger);
 ```
 
-##Maintainers
+## Maintainers
 ???
